@@ -44,7 +44,7 @@ export default function  CountryName( {params} : {params:{country_name:string}})
                     <>
                         <h1>Country Name : {result.name}</h1>
                         <h1>Population : {result.population}</h1>
-                        <h1>Population : {result.capital}</h1>
+                        <h1>Capital : {result.capital}</h1>
                     </>
                 
                 ): (
