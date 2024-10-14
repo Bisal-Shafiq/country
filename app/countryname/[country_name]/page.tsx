@@ -35,7 +35,7 @@ export default function  CountryName( {params} : {params:{country_name:string}})
         return countries.find(country => country.name.toLowerCase() == country_url.toLowerCase())
     }
 
-    let result = findCountry(params.country_name)
+    const result = findCountry(params.country_name)
 
     return(
         <div>
